@@ -1,0 +1,28 @@
+.box{
+    display: flex;   
+}
+.item1{
+    flex: 4;
+    height: 100px;
+    border: 1px solid #000;
+    background: rgb(131,10,111);
+background: linear-gradient(25deg, rgba(131,10,111,1) 0%, rgba(25,25,94,1) 91%);
+}
+.item2{
+    flex: 2;
+    height: 100px;
+    border: 1px solid #000;
+    background: rgb(25,25,94);
+background: linear-gradient(210deg, rgb(179, 179, 251) 0%, rgb(17, 1, 14) 91%);
+}
+.item3{
+    flex: 5;
+    height: 100px;
+    border: 1px solid #000;
+}
+.item4{
+    flex: 1;
+    height: 100px;
+    border: 1px solid #000;
+    transform: rotate(10deg); 
+}

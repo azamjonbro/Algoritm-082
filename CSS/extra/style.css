@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url(./bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: #fff;
+}
+input{
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.login>h2{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login>.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px   ;
+}
+.item{
+    background: #ffffff43;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox>label, a{
+    text-decoration: none;
+    color: #fff;
+}
+.checkbox>a:hover{
+    color: #4869fbdc;
+}
+button{
+    padding: 8px 95px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* transition: 400ms; */
+}
+button:hover{
+    background: #919191;
+    color: #fff;
+    transition: 400ms;
+}
+button:active{
+    background: #656565;
+}

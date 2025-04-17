@@ -1,0 +1,6 @@
+.box{
+   border: 1px solid #919191;
+   width: 50%;
+   background: url(./bg.jpg) no-repeat;
+   background-attachment: local;
+}

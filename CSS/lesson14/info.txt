@@ -1,0 +1,14 @@
+men qilishim kerak bolgan ish ->
+
+kerak boladigan sectionlar
+1.Hero
+Navbar -> logobox list buttonbox
+2.Invite
+4ta card va har biri ichida -> img h2 p
+3.Brown
+
+4.Products
+5.Comments
+6.Download
+7.Contacts
+8.footer

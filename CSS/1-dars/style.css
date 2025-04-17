@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.text {
+    width: 555px;
+    color: #000;
+    font-weight: lighter;
+    border-radius: 10px;
+    line-height: 1.5;
+    letter-spacing: 10px;
+}
+
+body {
+    background: #fff;
+}
+
+#instagram {
+    width: 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    height: 16px;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+#play{
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    background: #00000081;
+}

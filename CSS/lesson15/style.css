@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    opacity: 0;
+}
+
+
+@media (max-width:1200px){
+
+    nav>ul>li>a{
+        background: red;
+        font-size: 40px;
+        color: #fff;
+    }
+}
+@media(max-width: 370px){
+    nav>ul>li>a{
+        background: blue;
+        font-size: 30px;
+        color: #fff;
+    }
+}
+
+@media (max-width:360px){
+    nav>ul>li>a{
+        opacity: 0.1;
+    }
+    h2{
+        opacity: 1;
+    }
+}

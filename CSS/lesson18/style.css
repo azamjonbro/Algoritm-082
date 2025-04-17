@@ -1,0 +1,10 @@
+
+
+.box{
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    height: 400px;
+    background: url('./bg.jpg');
+    background-size: cover;
+}
