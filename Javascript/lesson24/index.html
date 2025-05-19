@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="azamjonbro">
+ <meta name="description"
+  content="bu sayt dummy json dan foydalanib o'quvchilar uchun online shop sayt yasashni o'rganish maqsadida yasaldi">
+ <meta name="keywords"
+  content="online, shop, dummy, dummyjson, dummyshop, projects, portfolio, mysite, onlineshopsite, jssite, onlinesite">
+ <link rel="stylesheet" href="./style.css">
+ <title>Document</title>
+</head>
+
+<body>
+ <main>
+  <h2 class="product-title">Product managment </h2>
+  <section class="product-section">
+   <div class="left">
+    <h2 class="left-title">Create product</h2>
+    <form class="product-create">
+     <input type="text" class="product-name" placeholder="enter product name">
+     <input type="number" class="product-price" placeholder="enter product price">
+     <label for="category">Select category</label>
+     <select name="selectbox" id="category">
+      <option value="Product">Product</option>
+      <option value="Fruits">Mevalar</option>
+      <option value="Meat">Go'shtlar</option>
+      <option value="Dresses">Kiyimlar</option>
+      <option value="Shoes">Oyoq kiyimlar</option>
+     </select>
+     <textarea placeholder="enter products" name="" id="" cols="35" rows="10" style="resize: none;"></textarea>
+     <button>Create product</button>
+    </form>
+   </div>
+   <div class="right">
+    <div class="top-search">
+     <h2 class="title">Products</h2>
+     <input type="text" placeholder="enter product title ..." class="search-input">
+    </div>
+    <div class="contentbox"></div>
+   </div>
+  </section>
+ </main>
+ <div class="notification">
+  Mahsulot muvaffaqqiyatli o'chirildi
+ </div>
+ <div class="overview">
+  <div class="alert">
+    <h3>Rostdan ham shu mahsulotni o'chirmoqchimisiz ?</h3>
+    <div class="buttonbox">
+     <button class="success">Ha</button>
+     <button class="cancel">Yo'q</button>
+    </div>
+  </div>
+ </div>
+ <script src="./index.js"></script>
+</body>
+
+</html>

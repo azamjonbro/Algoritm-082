@@ -1,0 +1,26 @@
+[
+ {
+   "id":1,
+   "name":"Laylo",
+   "age":18,
+   "weight":45,
+   "height":165,
+   "color":"white, pink"
+ },
+ {
+   "id":2,
+   "name":"Oygul",
+   "age":19,
+   "weight":52,
+   "height":173,
+   "color":"gray, black"
+ },
+ {
+   "id":3,
+   "name":"Muhlisa",
+   "age":18,
+   "weight":47,
+   "height":176,
+   "color":"white, pink"
+ }
+]
