@@ -17,3 +17,7 @@ fetch('./products.json').then((e)=>e.json())
  // JSON.parse() //parse bu obj ichidagi qiymatlarni oynaga chiqarish uchun ishlata olish usulga aylantirish
  // JSON.stringify() // stringify esa objga json file formatda malumotlarni saqlash usuli
 })
+
+
+
+
