@@ -54,7 +54,7 @@ padding: 40px 0px;
 .product-list{
  display: flex;
  flex-wrap: wrap;
- gap: 30px;
+ gap: 10px;
 }
 .product-header>img:hover{
  transform: scale(1.06);
