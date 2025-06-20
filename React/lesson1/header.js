@@ -1,8 +1,9 @@
 export function HeaderComponent() {
   // return "<h1>Salom</h1>"; // HTML string
-  const h1 = document.createElement("h1");
-  h1.textContent = "Salom";
-  h1.classList.add("title")
+  const box = document.createElement("div");
+  box.innerHTML=`
+   <h2>Salomlar</h2>
+  `
   return h1;
 }
 

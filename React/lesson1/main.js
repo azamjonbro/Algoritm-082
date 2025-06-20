@@ -5,3 +5,7 @@ const header = HeaderComponent(); // funksiyani chaqiramiz
 
 // DOMga qo‘shish
 root.appendChild(header);
+// banner
+// about
+// project
+// contact
